@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", serif;
 }
+
+body{
+    background-color: rgb(33, 34, 36);
+}
