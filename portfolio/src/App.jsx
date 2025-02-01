@@ -1,3 +1,5 @@
+import About from "./components/About/About.jsx"
+import Home from "./components/Home/Home.jsx"
 import Nav from "./components/Nav/Nav.jsx"
 
 function App() {
@@ -5,7 +7,9 @@ function App() {
 
   return (
     <>
-      <Nav></Nav>
+      <Nav/>
+      <Home/>
+      <About/>
     </>
   )
 }
