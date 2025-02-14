@@ -1,5 +1,7 @@
 import React from 'react'
+
 import "./About.css"
+import Card from '../Card/Card'
 
 function About() {
   return (
@@ -57,7 +59,9 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="rightabout"></div>
+      <div className="rightabout">
+        <Card/>
+      </div>
     </div>
   )
 }
