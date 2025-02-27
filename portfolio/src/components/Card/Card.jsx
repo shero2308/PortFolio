@@ -2,12 +2,12 @@ import React from 'react'
 import './Card.css'
 import DjangoImg from '../../assets/Djangoimg.png'
 
-function Card() {
+function Card({title, image}) {
   return (
     <div className="card">
-        <h1>Django</h1>
+        <h1>{title}</h1>
         <div className="hovercard">
-            <img src={DjangoImg} alt='' />
+            <img src={image} alt='' />
         </div>
     </div>
   )

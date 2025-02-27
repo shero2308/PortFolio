@@ -61,6 +61,8 @@ function About() {
       </div>
       <div className="rightabout">
         <Card/>
+        <Card/>
+        <Card/>
       </div>
     </div>
   )

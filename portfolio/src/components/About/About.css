@@ -57,3 +57,13 @@
 .aboutdetails span{
     color: rgb(6, 238, 255);
 }
+
+.rightabout{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
