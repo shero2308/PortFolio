@@ -3,6 +3,7 @@ import React from 'react'
 import "./About.css"
 import Card from '../Card/Card'
 
+
 function About() {
   return (
     <div id="about">
@@ -60,9 +61,9 @@ function About() {
         </div>
       </div>
       <div className="rightabout">
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card title="Django"/>
+        <Card title="React"/>
+        <Card title="PostgreSQL"/>
       </div>
     </div>
   )
